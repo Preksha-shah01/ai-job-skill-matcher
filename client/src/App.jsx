@@ -1,7 +1,9 @@
 function App() {
   return (
     <main>
-      <h1>AI Job Skill Matcher</h1>
+      <h1 className="text-5xl font-bold text-blue-500">
+        AI Job Skill Matcher
+      </h1>
 
       <p>
         Find jobs that match your skills and discover what you need to learn
