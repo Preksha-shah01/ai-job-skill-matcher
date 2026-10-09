@@ -1,15 +1,13 @@
+import { Routes, Route } from 'react-router'
+import Home from './pages/Home'
+import Login from './pages/Login'
+
 function App() {
   return (
-    <main>
-      <h1 className="text-5xl font-bold text-blue-500">
-        AI Job Skill Matcher
-      </h1>
-
-      <p>
-        Find jobs that match your skills and discover what you need to learn
-        next.
-      </p>
-    </main>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/login" element={<Login />} />
+    </Routes>
   )
 }
 
